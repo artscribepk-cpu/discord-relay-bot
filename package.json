@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "Relay bot that forwards Discord events to Make.com webhooks",
   "main": "bot.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
     "discord.js": "^14.0.0",
-    "node-fetch": "^2.7.0"
+    "node-fetch": "2.6.9"
   }
 }
