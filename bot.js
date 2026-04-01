@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 // ============================================================
 //  CONFIG
 // ============================================================
-const BOT_TOKEN        = 'YOUR_BOT_TOKEN_HERE';        // paste your bot token
+const BOT_TOKEN        = process.env.BOT_TOKEN;
 const INTRO_CHANNEL_ID = '1488861311679860826';
 const NEW_USER_ROLE_ID = '1488861465828921395';
 
